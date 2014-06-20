@@ -1,0 +1,129 @@
+.quiz-options {
+	margin-top: 15px;
+	.quiz-option {
+		width: 20%;
+		float: left;
+		padding: 0 10px 0 20px;
+		a {
+			position: relative;
+			font-size: 20px;
+			color: white;
+			text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+			padding: 5px;
+			padding-left: 38px;
+			display: block;
+			width: 100%;
+			line-height: 30px;
+			text-align: center;
+			border: solid 2px rgba(0,0,0,0.1);
+			border-radius: 4px;
+			box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+
+			background: #2679af;
+			&:hover {
+				box-shadow: 0px 0px 8px #2679af;
+			}
+			&.completed {
+				background: #8ac33c;
+				&:hover {
+					box-shadow: 0px 0px 8px #8ac33c;
+				}
+			}
+			&.error{
+				background: #b81a11;
+				&:hover {
+					box-shadow: 0px 0px 8px #b81a11;
+				}
+			}
+			&.active, &:hover{
+				background: #ffd800;
+				&:hover {
+					box-shadow: 0px 0px 8px #ffd800;
+				}
+			}
+		}
+		.icon {
+			background: url('img/dereza/button-sprite-small.png');
+			position: absolute;
+			top: -10px;
+			left: -20px;
+			width: 60px;
+			height: 62px;
+		}
+	}
+	.option1 a {
+		.icon {
+			background-position: -360px -125px;
+		}
+		&.completed .icon {
+			background-position: -360px 0px;
+		}
+		&.error .icon{
+			background-position: -360px -62px;
+		}
+		&.active .icon, &:hover .icon{
+			background-position: -360px -187px;
+		}
+		
+	}
+	.option2 a {
+		.icon {
+			background-position: -60px -125px;
+		}
+		&.completed .icon {
+			background-position: -60px 0px;
+		}
+		&.error .icon{
+			background-position: -60px -62px;
+		}
+		&.active .icon, &:hover .icon{
+			background-position: -60px -187px;
+		}
+
+	}
+	.option3 a {
+		.icon {
+			background-position: -120px -125px;
+		}
+		&.completed .icon {
+			background-position: -120px 0px;
+		}
+		&.error .icon{
+			background-position: -120px -62px;
+		}
+		&.active .icon, &:hover .icon{
+			background-position: -120px -187px;
+		}
+
+	}
+	.option4 a {
+		.icon {
+			background-position: -300px -125px;
+		}
+		&.completed .icon {
+			background-position: -300px 0px;
+		}
+		&.error .icon{
+			background-position: -300px -62px;
+		}
+		&.active .icon, &:hover .icon{
+			background-position: -300px -187px;
+		}
+
+	}
+	.option5 a {
+		.icon {
+			background-position: -420px -125px;
+		}
+		&.completed .icon {
+			background-position: -420px 0px;
+		}
+		&.error .icon{
+			background-position: -420px -62px;
+		}
+		&.active .icon, &:hover .icon{
+			background-position: -420px -187px;
+		}
+	}
+
+}

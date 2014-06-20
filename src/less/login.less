@@ -1,0 +1,70 @@
+.page-login, .page-register {
+	.static {
+		background: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		padding: 15px;
+		text-align: center;
+		h3 {
+			color: @gray-dark;
+			font-size: 25px;
+			font-weight: 200;
+			line-height: 200%;
+			margin-bottom: 5px;
+			margin-top: 0px;
+		}
+		.form-group {
+			margin-top: 20px;
+		}
+
+		p {
+			font-weight: 200;
+		}
+
+		&.notification.success {
+			display: none;
+			background: @green;
+			color: white;
+			margin-bottom: 20px;
+			h3 {
+				color: white;
+			}
+			i {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				font-size: 40px;
+				&:hover {
+					opacity: 0.8;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+
+	.btn-default {
+		padding: 10px 40px;
+		color: white;
+		background: @primary-color;
+	}
+	.sub-text {
+		font-weight: 200;
+		font-size: 12px;
+		margin-top: 5px;
+		a {
+			color: inherit;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	.register {
+		font-weight: 200;
+		a {
+			font-weight: 400;
+		}
+		border-top: 1px solid lighten(@gray-dark, 20%);
+		padding-top: 20px;
+	}
+
+
+}
