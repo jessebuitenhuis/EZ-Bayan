@@ -31,5 +31,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-3 logo"><a href="chapters.php">Ez Bayan</a></div>
+				<section class="col-xs-9 trackers">
+					<?php include('header-login.php'); ?>
 
 

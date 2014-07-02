@@ -1,5 +1,4 @@
 <?php include('header.php'); ?>
-					<section class="col-xs-9 trackers">
 						<div class="word-count">
 							<i class="fa fa-align-left"></i><span class="current">15</span> words learned
 						</div>

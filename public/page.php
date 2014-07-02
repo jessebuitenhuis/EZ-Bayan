@@ -5,7 +5,6 @@
 		$page = $_GET['page'];
 	} 
 ?>
-					<section class="col-xs-9 trackers">
 						<div class="static-title">
 							<?php echo str_replace('-', ' ', $page); ?>
 						</div>

@@ -5960,6 +5960,80 @@ header .trackers .static-title {
   width: auto;
   text-transform: uppercase;
 }
+header .login {
+  font-weight: 200;
+  margin-right: -15px;
+  text-align: right;
+}
+header .login .name {
+  margin-right: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
+header .login .button {
+  position: relative;
+  font-size: 13px;
+  font-weight: 200;
+  color: white;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  line-height: 23px;
+  text-align: center;
+  border: solid 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  padding: 0 10px 0 20px;
+  margin-left: 25px;
+  background: #2679af;
+}
+header .login .button:hover {
+  box-shadow: 0px 0px 8px #2679af;
+}
+header .login .button:focus {
+  outline: 1px dotted rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+header .login .icon {
+  background: url('img/dereza/button-sprite-extra-small.png');
+  background-position: 0 -82px;
+  position: absolute;
+  top: -10px;
+  left: -25px;
+  width: 40px;
+  height: 41px;
+}
+header .login .button-view-profile {
+  background: #8ac33c;
+}
+header .login .button-view-profile:hover {
+  box-shadow: 0px 0px 8px #8ac33c;
+}
+header .login .button-view-profile .icon {
+  background-position: 0 0 ;
+}
+header .login input {
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: black;
+  height: 27px;
+  border-radius: 4px;
+  padding: 0 10px;
+  position: relative;
+  top: 1px;
+}
+header .login input:focus {
+  color: black;
+  outline: 0;
+}
+header .login .new-account {
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  line-height: 30px;
+}
+header .login .new-account:hover {
+  text-decoration: underline;
+}
 .chapters .chapter-wrap {
   position: relative;
   padding: 0 50px 50px 0;
@@ -6335,8 +6409,9 @@ header .trackers .static-title {
   cursor: pointer;
 }
 .shade .notification .content.wrong .image {
-  background: url('img/dereza/sprites/namev2_btn_2.png') no-repeat;
+  background: url('img/dereza/answer-wrong.png') no-repeat;
   background-position: center;
+  background-size: 100%;
 }
 .shade .notification .content.wrong .button {
   background: #89130d;
@@ -6350,8 +6425,9 @@ header .trackers .static-title {
   box-shadow: 0px 0px 20px #0b4804;
 }
 .shade .notification .content.correct .image {
-  background: url('img/dereza/sprites/spell_btn_1.png') no-repeat;
+  background: url('img/dereza/answer-right.png') no-repeat;
   background-position: center;
+  background-size: 100%;
 }
 .shade .notification .content.correct .button {
   background: #0f6006;

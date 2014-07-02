@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-					<section class="col-xs-9 trackers">
+					
 						<div class="word-count">
 							SCORE <span class="current">15</span> / 20
 						</div>

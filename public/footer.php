@@ -2,6 +2,7 @@
 				<nav>
 					<ul>
 						<li><a href="login.php">LOGIN</a></li>
+						<li><a href="chapters.php">QUIZ ME</a></li>
 						<li><a href="page.php?page=about-us">ABOUT US</a></li>
 						<li><a href="page.php?page=help">HELP</a></li>
 						<li><a href="contact.php">CONTACT US</a></li>
