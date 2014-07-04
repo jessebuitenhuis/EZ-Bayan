@@ -12,7 +12,7 @@
 
 <div class="login logged-out">
 	<form id="loginForm" action="">
-		<input type="email" name="email" placeholder="Emailadress">
+		<input type="email" name="email" placeholder="Email address">
 		<input type="password" name="password" placeholder="Password">
 		<a href="document.getElementById('loginForm').submit();" class="button button-login">
 			<div class="icon"></div>

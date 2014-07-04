@@ -21,7 +21,7 @@
 		  			<div class="col-sm-8"><input type="text" class="col-sm-10 form-control" id="last-name" placeholder="Last Name"></div>
 		  		</div>
 		  		<div class="form-group">
-		  			<label for="email" class="col-sm-2 col-sm-offset-1 control-label">Emailadress</label>
+		  			<label for="email" class="col-sm-2 col-sm-offset-1 control-label">Email address</label>
 		  			<div class="col-sm-8"><input type="text" class="col-sm-10 form-control" id="email" placeholder="example@hotmail.com"></div>
 		  		</div>
 		  		<div class="form-group">
@@ -43,7 +43,10 @@
 		  </div>
 
 		</div>
-	<section>
+	</section>
+		<div id="push"></div>
+		</div><!-- #page-wrapper -->
+
 
 	<footer>
 		<div class="container">

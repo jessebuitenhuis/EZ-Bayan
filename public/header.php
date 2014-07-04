@@ -21,11 +21,13 @@
 			$body_style = 'style="'.
 						'background: url(img/dereza/chapter-'.$chapter_id.'-bg.png) fixed; '.
 						'background-size: cover; '.
-						'background-position: center 110%;"';
+						'background-position: center 100%;"';
 		} 
 	} 
 ?>
 <body class="<?php echo $body_class; ?>" <?php echo $body_style; ?>>
+
+	<div id="page-wrapper">		
 
 	<header>
 		<div class="container">

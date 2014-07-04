@@ -21,7 +21,12 @@
 				echo 'Sorry, no page is found.';
 			} ?>
 		</div>
-	<section>
+	</section>
+
+	<div id="push"></div>
+</div><!-- #page-wrapper -->
+
+
 
 	<footer>
 		<div class="container">
