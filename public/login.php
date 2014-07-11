@@ -31,7 +31,7 @@
 					<div class="form-group">
 						<div class="col-sm-offset-1 col-sm-10">
 							<button type="submit" class="btn btn-default">Learn Arabic</button>
-							<div class="sub-text"><a href="#">Click here if you forgot or lost your password.</a></div>
+							<div class="sub-text"><a href="forgot-password.php">Click here if you forgot or lost your password.</a></div>
 						</div>
 					</div>
 					<div class="form-group">

@@ -6808,6 +6808,23 @@ header .login a:last-of-type {
 .page-contact-done .register a {
   font-weight: 400;
 }
+.page-login .form-group .notification,
+.page-register .form-group .notification,
+.page-forgot-password .form-group .notification,
+.page-forgot-password-done .form-group .notification,
+.page-contact-done .form-group .notification {
+  display: none;
+}
+.page-login .form-group.has-warning .notification,
+.page-register .form-group.has-warning .notification,
+.page-forgot-password .form-group.has-warning .notification,
+.page-forgot-password-done .form-group.has-warning .notification,
+.page-contact-done .form-group.has-warning .notification {
+  display: block;
+  text-align: left;
+  color: red;
+  padding-top: 0;
+}
 .page-forgot-password .form-horizontal .control-label,
 .page-forgot-password-done .form-horizontal .control-label,
 .page-contact-done .form-horizontal .control-label {
