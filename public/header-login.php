@@ -18,7 +18,7 @@
 			<div class="icon"></div>
 			Login
 		</a><br>
-		<a href="forgot-password.php" class="new-account">Forgot your password?</a> | <a href="register.php" class="new-account">Create your new account here</a>
+		<a href="forgot-password.php" class="new-account">Forgot password?</a> | <a href="register.php" class="new-account">Create new account</a>
 	</form>
 </div>
 

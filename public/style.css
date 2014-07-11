@@ -6834,7 +6834,7 @@ header .login a:last-of-type {
 .page-forgot-password-done .static p,
 .page-contact-done .static p {
   text-align: left;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .page-forgot-password-done .static,
 .page-contact-done .static {
