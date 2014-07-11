@@ -8,6 +8,7 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
 	
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -32,7 +33,7 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-3 logo"><a href="chapters.php">Ez Bayan</a></div>
+				<div class="col-xs-3 logo"><a href="/ezbayan/">Ez Bayan</a></div>
 				<section class="col-xs-9 trackers">
 					<?php include('header-login.php'); ?>
 

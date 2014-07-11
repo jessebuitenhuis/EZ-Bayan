@@ -4,7 +4,9 @@ var UIEffects = (function(){
 		registerNotification: $('.page-login .notification'),
 		quizOption: $('.quiz .answer-wrap'),
 		quizWindowCorrect: $('.notification .correct'),
-		quizWindowWrong: $('.notification .wrong')
+		quizWindowWrong: $('.notification .wrong'),
+		readMoreFront: $('.page-index #readOn'),
+		contentFront: $('.page-index .main')
 	};
 
 	return {
@@ -19,6 +21,7 @@ var UIEffects = (function(){
 			s.quizOption.click(this.showResult);
 			s.quizWindowWrong.click(this.removeResult);
 			s.quizWindowCorrect.click(this.goToLink);
+			s.readMoreFront.click(this.scrollWindowToContent);
 		},
 
 		notifications: function(){
@@ -49,7 +52,17 @@ var UIEffects = (function(){
 
 		goToLink: function(){
 			var link = $(this).find('a').attr('href');
-			window.location = link;
+			if(link){
+				window.location = link;
+			} else {
+				UIEffects.removeResult();
+			}
+		},
+
+		scrollWindowToContent: function(e){
+			e.preventDefault();
+			$(window).scrollTo($('.main'), 800, {offset: -50});
+
 		}
 
 	};

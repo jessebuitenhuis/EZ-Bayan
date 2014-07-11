@@ -12,7 +12,7 @@
 		  <div class="col-sm-8 col-sm-offset-2 static">
 		  	<h3>Comments? Questions?</h3>
 		  	<p>We welcome all feedback around learning Qur'anic Arabic on our site.</p>
-		  	<form role="form" class="form-horizontal">
+		  	<form role="form" class="form-horizontal" action="contact-done.php">
 		  		<div class="form-group">
 		  			<label for="name" class="col-sm-2 col-sm-offset-1 control-label">Name</label>
 		  			<div class="col-sm-8"><input type="text" class="col-sm-10 form-control" id="first-name" placeholder="Your Name"></div>

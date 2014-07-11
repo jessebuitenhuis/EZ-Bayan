@@ -14,6 +14,7 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!-- <script src="js/audiojs/audio.min.js"></script> -->
 	<script src="js/functions.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
 
 	<!--Move this to functions.js later -->
 	<script>

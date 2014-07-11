@@ -5884,6 +5884,58 @@ a:hover {
   box-shadow: none;
   border-width: 4px;
 }
+.button {
+  position: relative;
+  font-size: 13px;
+  color: white;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  line-height: 23px;
+  font-weight: 200;
+  text-align: center;
+  border: solid 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  padding: 0 10px 0 20px;
+  margin-left: 25px;
+  text-decoration: none;
+  background: #2679af;
+}
+.button:hover {
+  box-shadow: 0px 0px 8px #2679af;
+  text-decoration: none;
+  color: white;
+}
+.button:focus {
+  outline: 1px dotted rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+.button .icon {
+  background: url('img/dereza/button-sprite-extra-small.png');
+  background-position: 0 -82px;
+  position: absolute;
+  top: -10px;
+  left: -25px;
+  width: 40px;
+  height: 41px;
+}
+.button#callToAction {
+  font-size: 17px;
+  line-height: 40px;
+  padding: 0 30px 0 40px;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.button#callToAction .icon {
+  background: url('img/dereza/button-sprite-small.png');
+  background-position: -300px -124px;
+  top: -12px;
+  left: -30px;
+  width: 60px;
+  height: 62px;
+}
 header {
   padding-top: 10px;
   margin-bottom: 30px;
@@ -5974,6 +6026,18 @@ header .trackers .static-title {
   width: auto;
   text-transform: uppercase;
 }
+header a {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+}
+header a:hover {
+  color: white;
+  text-decoration: underline;
+}
+header .carousel-wrap {
+  text-align: center;
+}
 header .login {
   font-weight: 200;
   margin-right: -15px;
@@ -5983,38 +6047,6 @@ header .login .name {
   margin-right: 20px;
   color: rgba(255, 255, 255, 0.8);
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
-}
-header .login .button {
-  position: relative;
-  font-size: 13px;
-  font-weight: 200;
-  color: white;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  display: inline-block;
-  line-height: 23px;
-  text-align: center;
-  border: solid 2px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
-  padding: 0 10px 0 20px;
-  margin-left: 25px;
-  background: #2679af;
-}
-header .login .button:hover {
-  box-shadow: 0px 0px 8px #2679af;
-}
-header .login .button:focus {
-  outline: 1px dotted rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-}
-header .login .icon {
-  background: url('img/dereza/button-sprite-extra-small.png');
-  background-position: 0 -82px;
-  position: absolute;
-  top: -10px;
-  left: -25px;
-  width: 40px;
-  height: 41px;
 }
 header .login .button-view-profile {
   background: #8ac33c;
@@ -6047,6 +6079,12 @@ header .login .new-account {
 }
 header .login .new-account:hover {
   text-decoration: underline;
+}
+header .login a {
+  padding: 0 10px;
+}
+header .login a:last-of-type {
+  padding-right: 0px;
 }
 .chapters .chapter-wrap {
   position: relative;
@@ -6410,6 +6448,7 @@ header .login .new-account:hover {
   padding: 10px 20px;
   border-radius: 5px;
   line-height: 100%;
+  margin-bottom: 5px;
 }
 .shade .notification .content .button:hover {
   top: -1px;
@@ -6644,14 +6683,20 @@ header .login .new-account:hover {
   font-weight: 400;
 }
 .page-login .static,
-.page-register .static {
+.page-register .static,
+.page-forgot-password .static,
+.page-forgot-password-done .static,
+.page-contact-done .static {
   background: rgba(255, 255, 255, 0.6);
   border-radius: 8px;
   padding: 15px;
   text-align: center;
 }
 .page-login .static h3,
-.page-register .static h3 {
+.page-register .static h3,
+.page-forgot-password .static h3,
+.page-forgot-password-done .static h3,
+.page-contact-done .static h3 {
   color: #494949;
   font-size: 25px;
   font-weight: 200;
@@ -6660,65 +6705,240 @@ header .login .new-account:hover {
   margin-top: 0px;
 }
 .page-login .static .form-group,
-.page-register .static .form-group {
+.page-register .static .form-group,
+.page-forgot-password .static .form-group,
+.page-forgot-password-done .static .form-group,
+.page-contact-done .static .form-group {
   margin-top: 20px;
 }
 .page-login .static p,
-.page-register .static p {
+.page-register .static p,
+.page-forgot-password .static p,
+.page-forgot-password-done .static p,
+.page-contact-done .static p {
   font-weight: 200;
 }
 .page-login .static.notification.success,
-.page-register .static.notification.success {
+.page-register .static.notification.success,
+.page-forgot-password .static.notification.success,
+.page-forgot-password-done .static.notification.success,
+.page-contact-done .static.notification.success {
   display: none;
   background: #169009;
   color: white;
   margin-bottom: 20px;
 }
 .page-login .static.notification.success h3,
-.page-register .static.notification.success h3 {
+.page-register .static.notification.success h3,
+.page-forgot-password .static.notification.success h3,
+.page-forgot-password-done .static.notification.success h3,
+.page-contact-done .static.notification.success h3 {
   color: white;
 }
 .page-login .static.notification.success i,
-.page-register .static.notification.success i {
+.page-register .static.notification.success i,
+.page-forgot-password .static.notification.success i,
+.page-forgot-password-done .static.notification.success i,
+.page-contact-done .static.notification.success i {
   position: absolute;
   top: 10px;
   right: 10px;
   font-size: 40px;
 }
 .page-login .static.notification.success i:hover,
-.page-register .static.notification.success i:hover {
+.page-register .static.notification.success i:hover,
+.page-forgot-password .static.notification.success i:hover,
+.page-forgot-password-done .static.notification.success i:hover,
+.page-contact-done .static.notification.success i:hover {
   opacity: 0.8;
   cursor: pointer;
 }
+.page-login .static img,
+.page-register .static img,
+.page-forgot-password .static img,
+.page-forgot-password-done .static img,
+.page-contact-done .static img {
+  width: 100%;
+}
 .page-login .btn-default,
-.page-register .btn-default {
+.page-register .btn-default,
+.page-forgot-password .btn-default,
+.page-forgot-password-done .btn-default,
+.page-contact-done .btn-default {
   padding: 10px 40px;
   color: white;
   background: #d17c24;
 }
 .page-login .sub-text,
-.page-register .sub-text {
+.page-register .sub-text,
+.page-forgot-password .sub-text,
+.page-forgot-password-done .sub-text,
+.page-contact-done .sub-text {
   font-weight: 200;
   font-size: 12px;
   margin-top: 5px;
 }
 .page-login .sub-text a,
-.page-register .sub-text a {
+.page-register .sub-text a,
+.page-forgot-password .sub-text a,
+.page-forgot-password-done .sub-text a,
+.page-contact-done .sub-text a {
   color: inherit;
 }
 .page-login .sub-text a:hover,
-.page-register .sub-text a:hover {
+.page-register .sub-text a:hover,
+.page-forgot-password .sub-text a:hover,
+.page-forgot-password-done .sub-text a:hover,
+.page-contact-done .sub-text a:hover {
   text-decoration: underline;
 }
 .page-login .register,
-.page-register .register {
+.page-register .register,
+.page-forgot-password .register,
+.page-forgot-password-done .register,
+.page-contact-done .register {
   font-weight: 200;
   border-top: 1px solid #7c7c7c;
   padding-top: 20px;
 }
 .page-login .register a,
-.page-register .register a {
+.page-register .register a,
+.page-forgot-password .register a,
+.page-forgot-password-done .register a,
+.page-contact-done .register a {
   font-weight: 400;
+}
+.page-forgot-password .form-horizontal .control-label,
+.page-forgot-password-done .form-horizontal .control-label,
+.page-contact-done .form-horizontal .control-label {
+  display: none;
+}
+.page-forgot-password .static p,
+.page-forgot-password-done .static p,
+.page-contact-done .static p {
+  text-align: left;
+  padding-top: 20px;
+}
+.page-forgot-password-done .static,
+.page-contact-done .static {
+  padding-bottom: 40px;
+}
+body.page-index {
+  background: #5bb9d0;
+}
+.page-index header {
+  background: url('img/dereza/frontpage-background.png');
+  background-size: cover;
+  background-position: center 100%;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #1f3600;
+  box-shadow: 0px 5px 20px;
+}
+@media (min-width: 1367px) {
+  .page-index header {
+    height: 600px;
+  }
+}
+.page-index .carousel {
+  height: 300px;
+}
+@media (min-width: 1367px) {
+  .page-index .carousel {
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+}
+.page-index .carousel .bx-viewport {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  left: 0px !important;
+  height: 230px !important;
+}
+.page-index .carousel .bx-viewport .bxslider {
+  padding: 0;
+  color: white;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
+}
+.page-index .carousel .bx-viewport .bxslider h2 {
+  font-size: 80px;
+  font-family: 'KB Planet Earth';
+  line-height: 100px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  position: relative;
+}
+.page-index .carousel .bx-viewport .bxslider p {
+  font-size: 20px;
+  text-shadow: none;
+  color: black;
+}
+.page-index .carousel .bx-wrapper .bx-controls-direction a {
+  text-indent: 0;
+  font-size: 60px;
+  margin-top: -30px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.page-index .carousel .bx-wrapper .bx-controls-direction a:hover {
+  color: white;
+}
+.page-index .main {
+  position: relative;
+  background: url('img/clouds-front.png') repeat-x;
+  background-position: 0 -400px;
+  padding-top: 20px;
+  padding-bottom: 200px;
+}
+.page-index .main .row {
+  margin-bottom: 20px;
+}
+.page-index .main .text {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 200;
+}
+.page-index .main .text h2 {
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'KB Planet Earth';
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+}
+.page-index .main .image {
+  text-align: center;
+}
+.page-index .main .image img {
+  max-width: 80%;
+}
+.page-index .main .quiz .assignment-word {
+  font-size: 30px;
+}
+.page-index .main .quiz .answers .answer-option .answer-wrap .answer-thumbnail {
+  height: 100px;
+}
+.page-index .main .quiz .answers .answer-option .answer-wrap .answer-content {
+  padding: 15px 10px;
+}
+.page-index .main .quiz .image {
+  margin-top: 10px;
+}
+.page-index .main .quiz .image img {
+  max-width: 100%;
+}
+.page-index .main .vertical-center {
+  margin-top: 50px;
+}
+.page-index .background-main {
+  background: url('img/dereza/chapter-114-bg.png') no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  position: absolute;
+  bottom: -150px;
+  left: 0;
+  width: 100%;
+  height: 1050px;
+  z-index: -1;
 }
 footer {
   background: url(img/footer-background-v2.png) no-repeat;

@@ -1,4 +1,4 @@
-.page-login, .page-register {
+.page-login, .page-register, .page-forgot-password, .page-forgot-password-done, .page-contact-done {
 	.static {
 		background: rgba(255,255,255,0.6);
 		border-radius: 8px;
@@ -39,6 +39,10 @@
 				}
 			}
 		}
+
+		img {
+			width: 100%;
+		}
 	}
 
 	.btn-default {
@@ -67,4 +71,23 @@
 	}
 
 
+}
+
+.page-forgot-password, .page-forgot-password-done, .page-contact-done {
+	.form-horizontal .control-label {
+		display: none;
+	}
+
+	.static {
+		p {
+			text-align: left;
+			padding-top: 20px;
+		}
+	}
+}
+
+.page-forgot-password-done, .page-contact-done {
+	.static {
+		padding-bottom: 40px;
+	}
 }
