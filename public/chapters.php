@@ -1,8 +1,12 @@
 <?php include('header.php'); ?>
 
 				</div>
+				<div class="row">
+					<div class="breadcrumb"><a href="index.php">Home</a> > Quiz me</div>
+				</div>
 			</div>
 	</header>
+	
 
 	<section class="container chapters">
 		<div class="row">

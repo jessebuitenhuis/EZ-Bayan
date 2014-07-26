@@ -10,6 +10,9 @@
 						</div>
 					</section>
 				</div>
+				<div class="row">
+					<div class="breadcrumb"><a href="index.php">Home</a> > <?php echo ucfirst(str_replace('-', ' ', $page)); ?></div>
+				</div>
 			</div>
 	</header>
 

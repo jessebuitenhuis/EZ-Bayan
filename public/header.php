@@ -33,7 +33,7 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-3 logo"><a href="/ezbayan/">Ez Bayan</a></div>
+				<div class="col-xs-3 logo"><a href="index.php">Ez Bayan</a></div>
 				<section class="col-xs-9 trackers">
 					<?php include('header-login.php'); ?>
 

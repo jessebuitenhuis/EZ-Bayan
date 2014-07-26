@@ -5,6 +5,7 @@ var UIEffects = (function(){
 		quizOption: $('.quiz .answer-wrap'),
 		quizWindowCorrect: $('.notification .correct'),
 		quizWindowWrong: $('.notification .wrong'),
+		quizWindowComplete: $('.notification .word-complete'),
 		readMoreFront: $('.page-index #readOn'),
 		contentFront: $('.page-index .main')
 	};
@@ -37,15 +38,21 @@ var UIEffects = (function(){
 		showResult: function(){
 			if ($(this).hasClass('correct')) {
 				$('.shade').fadeIn();
-				$('.shade .correct').fadeIn();
+				$('.shade .correct').fadeIn().find('audio').get(0).play();
 			}
 			if ($(this).hasClass('wrong')) {
 				$('.shade').fadeIn();
-				$('.shade .wrong').fadeIn();
+				$('.shade .wrong').fadeIn().find('audio').get(0).play();;
+			}
+			if ($(this).hasClass('complete')) {
+				$('.shade').fadeIn();
+				$('.shade .word-complete').fadeIn().find('audio').get(0).play();
 			}
 		},
 
 		removeResult: function() {
+			$('.shade .content:visible').find('audio').get(0).pause();
+			$('.shade .content:visible').find('audio').get(0).currentTime = 0;
 			$('.shade').fadeOut();
 			$('.content').fadeOut();
 		},

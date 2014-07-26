@@ -4,6 +4,9 @@
 						</div>
 					</section>
 				</div>
+				<div class="row">
+					<div class="breadcrumb"><a href="index.php">Home</a> > Contact</div>
+				</div>
 			</div>
 	</header>
 

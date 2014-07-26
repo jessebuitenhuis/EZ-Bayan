@@ -1,0 +1,493 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"PF",
+				"PFAccordion"
+			],
+			[
+				"Acoo",
+				"AccordionStyles"
+			],
+			[
+				"accor",
+				"accordion-heading"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"form",
+				"formGroupId"
+			],
+			[
+				"erro",
+				"errorField"
+			],
+			[
+				"submit",
+				"submitMessage"
+			],
+			[
+				"check",
+				"checkForErrors"
+			],
+			[
+				"a",
+				"default"
+			],
+			[
+				"html",
+				"html-closed"
+			],
+			[
+				"box-header",
+				"box-header-inset"
+			],
+			[
+				"feedback-",
+				"feedback-momenten"
+			],
+			[
+				"sub",
+				"submitButton"
+			],
+			[
+				"feedbac",
+				"feedback-settings"
+			],
+			[
+				"su",
+				"submitButton"
+			],
+			[
+				"feed",
+				"feedback-settings"
+			],
+			[
+				"error",
+				"error"
+			],
+			[
+				"feedback",
+				"feedback-momenten"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "TODO\n- login button\n- complete word screen\n- breadcrumbs\n- clapping sound\n- crying sound\n",
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Windows",
+				"name": "TODO"
+			}
+		},
+		{
+			"file": "public/quiz.php",
+			"settings":
+			{
+				"buffer_size": 2317,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"stnx html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syht",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 118.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Dashboard/ScoreSettings.cshtml",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Dashboard/FAQPage.cshtml",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Shared/_FeedbackSettings.cshtml",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Styles/main.css",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Dashboard/Message.cshtml",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Controllers/DashboardController.cs",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Shared/_LayoutFront.cshtml",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Dashboard/FAQ.cshtml",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Shared/_LayoutIntake.cshtml",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Dashboard/Development.cshtml",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Scripts/main.js",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Scripts/plugins.js",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Scripts/test-response.js",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Dashboard/testing.js",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Dashboard/DevelopmentGoal.cshtml",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Styles/font-awesome.min.css",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Account/ActivateUser.cshtml",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Dashboard/UserSettings.cshtml",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Dashboard/_ExcitingMoments.cshtml",
+		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Dashboard/_OntwikkelingLevels.cshtml",
+		"/D/Google Drive.old/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Styles/sprites.css",
+		"/D/Google Drive.old/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Shared/_LayoutFront.cshtml",
+		"/D/Google Drive.old/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Shared/_Layout.cshtml",
+		"/D/Google Drive.old/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Scripts/plugins.js",
+		"/D/Google Drive.old/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Shared/_FeedbackSettings.cshtml",
+		"/D/Google Drive.old/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Scripts/main.js",
+		"/D/Google Drive.old/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Scripts/validation/jquery.validate.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"btn-default",
+			"span3",
+			"settings",
+			"btn-default",
+			"accordion-inner",
+			"self",
+			"textClosed",
+			"var ",
+			"this",
+			"item",
+			".Id\"",
+			"h3",
+			"[0]",
+			"@Model.Top10[0].Question",
+			"@Model",
+			"<a href=\"#@Model.Top10[0].Id\">",
+			"<tr>",
+			"<h4>",
+			"span2",
+			"<h4",
+			"1. ",
+			".Question",
+			"@Model",
+			"<a href=",
+			"\">@",
+			"<a href=",
+			"faq",
+			" class=\"pull-right\"",
+			"settings",
+			"frm-competentie",
+			"feedback",
+			"'pf-form'",
+			"pf-form",
+			"'action'",
+			"action",
+			"form",
+			"msg",
+			"var ",
+			"2000",
+			".stop(true,true).hide()",
+			"true",
+			"$(element).find('.msg')",
+			"button",
+			"value=",
+			":00",
+			"PFCheckBox",
+			"s.values",
+			"msg",
+			"custom stylesmt0",
+			"custom styles",
+			"mgb",
+			"default",
+			"btn-default",
+			"accordion",
+			"itemOpen",
+			"pageOpen",
+			"caret",
+			"icon-caret-down",
+			"><",
+			"5f5f5f",
+			"removeClass(",
+			"welke competentie",
+			"ui-slider",
+			"span3 t",
+			"/p",
+			"p ",
+			"p",
+			"3",
+			"box-row",
+			"btn-default",
+			"btn-mini",
+			"btn-inimini",
+			" require-1",
+			"#reflecteren",
+			"pdng",
+			"custom styles",
+			"question2",
+			"question1",
+			"category-1",
+			"faq-category-1",
+			"collapse3Two",
+			"collapse3One",
+			"accordion3",
+			"collapseOne",
+			"accordion2",
+			"faq-category-1",
+			"category-1",
+			"Vraag",
+			"<a href=\"#\">",
+			"icon_ontwikkeling",
+			"pull-left",
+			" pull-left",
+			"0",
+			"box-header",
+			"acc-box-shadow",
+			"1px",
+			"opacity",
+			"ease-in-out",
+			"accordion",
+			"settings",
+			"pdng",
+			"btn-default",
+			"button",
+			" span1",
+			" value=\"0\"",
+			"3",
+			"settings",
+			"feedback-settings",
+			"feedback-m",
+			"form",
+			"button",
+			"form",
+			"help-block",
+			"settings",
+			"false",
+			"btn",
+			"inactive",
+			"button",
+			"form-group",
+			"competentie",
+			"feedback",
+			"btn-group",
+			" data-toggle=\"buttons-checkbox\"",
+			"#feedback-settings",
+			"feedback-momenten",
+			"box-row",
+			"19",
+			"20"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"auto_name": "TODO",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/quiz.php",
+					"settings":
+					{
+						"buffer_size": 2317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								453,
+								453
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"dashb",
+				"Project/MasterProject.WebUI/Controllers/DashboardController.cs"
+			],
+			[
+				"css",
+				"Project/MasterProject.WebUI/Styles/main.css"
+			],
+			[
+				"faq",
+				"Views/Dashboard/FAQPage.cshtml"
+			],
+			[
+				"main.css",
+				"Project/MasterProject.WebUI/Styles/main.css"
+			],
+			[
+				"main.js",
+				"Project/MasterProject.WebUI/Scripts/main.js"
+			],
+			[
+				"p",
+				"Project/MasterProject.WebUI/Scripts/plugins.js"
+			],
+			[
+				"pl",
+				"Project/MasterProject.WebUI/Scripts/plugins.js"
+			],
+			[
+				"fdbckstn",
+				"Project/MasterProject.WebUI/Views/Shared/_FeedbackSettings.cshtml"
+			],
+			[
+				"message",
+				"Views/Dashboard/Message.cshtml"
+			],
+			[
+				"plugins",
+				"Project/MasterProject.WebUI/Scripts/plugins.js"
+			],
+			[
+				"maincss",
+				"Project/MasterProject.WebUI/Styles/main.css"
+			],
+			[
+				"user",
+				"Views/Dashboard/UserSettings.cshtml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": true
+}

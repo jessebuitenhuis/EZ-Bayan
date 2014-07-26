@@ -4,6 +4,9 @@
 						</div>
 					</section>
 				</div>
+				<div class="row">
+					<div class="breadcrumb"><a href="index.php">Home</a> > <a href="chapters.php">Quiz me</a> > Chapter <?php echo $_GET['chapter_id']; ?></div>
+				</div>
 			</div>
 	</header>
 
