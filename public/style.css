@@ -6941,11 +6941,15 @@ header .login a:last-of-type {
 .page-contact-done .static {
   padding-bottom: 40px;
 }
+body.page-index {
+  background: #4eabce;
+}
 body.page-index #page-wrapper {
   background: #5bb9d0;
-  background: url('img/background-frontpage.png');
-  background-size: cover;
-  background-position: center;
+  background: url('img/background-frontpage-top.png') no-repeat;
+  background-size: 100%;
+  background-position: center top;
+  position: relative;
 }
 .page-index header {
   padding-bottom: 20px;
@@ -6987,7 +6991,7 @@ body.page-index #page-wrapper {
 .page-index .carousel .bx-viewport .bxslider p {
   font-size: 20px;
   text-shadow: none;
-  color: black;
+  color: #FFF;
 }
 .page-index .carousel .bx-wrapper .bx-controls-direction a {
   text-indent: 0;
@@ -6996,14 +7000,27 @@ body.page-index #page-wrapper {
   color: rgba(255, 255, 255, 0.7);
 }
 .page-index .carousel .bx-wrapper .bx-controls-direction a:hover {
-  color: white;
+  background: white;
+}
+.page-index .carousel .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: white !important;
+}
+.page-index .background-frontpage {
+  background: url('img/background-frontpage-bottom.png') no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2000px;
+  z-index: -1;
 }
 .page-index .main {
   position: relative;
-  background: url('img/clouds-front.png') repeat-x;
-  background-position: 0 -400px;
+  background: url('img/elements-frontpage.png') no-repeat;
   padding-top: 20px;
   padding-bottom: 300px;
+  background-position: center 40%;
 }
 .page-index .main .row {
   margin-bottom: 20px;

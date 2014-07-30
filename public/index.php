@@ -72,7 +72,7 @@
 
 			<div class="row">
 				<div class="col-sm-5 image">
-					<img src="img/highlight-front-1.png">
+					<img src="img/shooting-stars.png">
 				</div>
 				<div class="col-sm-7">
 					<div class="text">
@@ -185,16 +185,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="background-main"></div>
+		
 	</section>
-
-
-
-
-
 	
 	<div id="push"></div>
-
+	<div class="background-frontpage"></div>
 	</div><!-- #page-wrapper -->
 
 

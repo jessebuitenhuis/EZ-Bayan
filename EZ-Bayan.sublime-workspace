@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"backg",
+				"background-position"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
 				"PF",
 				"PFAccordion"
 			],
@@ -83,30 +91,17 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "TODO\n- login button\n- complete word screen\n- breadcrumbs\n- clapping sound\n- crying sound\n",
-			"settings":
-			{
-				"buffer_size": 89,
-				"line_ending": "Windows",
-				"name": "TODO"
-			}
-		},
-		{
-			"file": "public/quiz.php",
-			"settings":
-			{
-				"buffer_size": 2317,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 357.0,
+		"height": 380.0,
 		"selected_items":
 		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
 			[
 				"html",
 				"Set Syntax: HTML"
@@ -120,7 +115,7 @@
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 392.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -137,6 +132,21 @@
 	},
 	"file_history":
 	[
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/src/less/quiz.less",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/public/quiz.php",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/public/quiz-content-use_it.php",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/src/less/quiz-buttons.less",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/src/js/UIEffects.js",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/public/page.php",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/src/less/main.less",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/public/header.php",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/src/less/header.less",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/src/less/home.less",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/public/chapters.php",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/public/sentences.php",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/public/contact.php",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/src/less/style.less",
+		"/D/Google Drive/Werk/Webdesign/Projects/Ezbayan/EZ-Bayan/src/less/footer.less",
 		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Dashboard/ScoreSettings.cshtml",
 		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Dashboard/FAQPage.cshtml",
 		"/D/Google Drive/Werk/Webdesign/Projects/Perflectie/Project/MasterProject.WebUI/Views/Shared/_FeedbackSettings.cshtml",
@@ -181,6 +191,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"applause.mp3",
+			"sentences",
+			"?chapter",
 			"btn-default",
 			"span3",
 			"settings",
@@ -305,10 +318,7 @@
 			"btn-group",
 			" data-toggle=\"buttons-checkbox\"",
 			"#feedback-settings",
-			"feedback-momenten",
-			"box-row",
-			"19",
-			"20"
+			"feedback-momenten"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -328,59 +338,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"settings":
-					{
-						"buffer_size": 89,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								89,
-								89
-							]
-						],
-						"settings":
-						{
-							"auto_name": "TODO",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/quiz.php",
-					"settings":
-					{
-						"buffer_size": 2317,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								453,
-								453
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 168.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -390,7 +347,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 30.0
 	},
 	"layout":
 	{
@@ -415,6 +372,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 88.0
+	},
 	"replace":
 	{
 		"height": 0.0
